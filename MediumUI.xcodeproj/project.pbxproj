@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C71DBBD428D238A700E6CE07 /* MediumUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71DBBD328D238A700E6CE07 /* MediumUIApp.swift */; };
+		C71DBBD628D238A700E6CE07 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71DBBD528D238A700E6CE07 /* ContentView.swift */; };
+		C71DBBD828D238A800E6CE07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C71DBBD728D238A800E6CE07 /* Assets.xcassets */; };
+		C71DBBDB28D238A800E6CE07 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C71DBBDA28D238A800E6CE07 /* Preview Assets.xcassets */; };
+		C71DBBE328D2F64000E6CE07 /* CarotDisplay-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = C71DBBE228D2F64000E6CE07 /* CarotDisplay-ExtraBold.otf */; };
+		C71DBBE628D300AA00E6CE07 /* SocialSignUpButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71DBBE528D300AA00E6CE07 /* SocialSignUpButtonView.swift */; };
+		C71DBBE828D324BA00E6CE07 /* TermsAndConditionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71DBBE728D324BA00E6CE07 /* TermsAndConditionsView.swift */; };
+		C71DBBEA28D32C1700E6CE07 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71DBBE928D32C1700E6CE07 /* Constants.swift */; };
+		C71DBBEC28D34F9B00E6CE07 /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71DBBEB28D34F9B00E6CE07 /* SignupView.swift */; };
+		C71DBBEE28D3540300E6CE07 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71DBBED28D3540300E6CE07 /* LoginView.swift */; };
+		C71DBBF028D35E9A00E6CE07 /* AppHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71DBBEF28D35E9A00E6CE07 /* AppHeaderView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C71DBBD028D238A700E6CE07 /* MediumUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MediumUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C71DBBD328D238A700E6CE07 /* MediumUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediumUIApp.swift; sourceTree = "<group>"; };
+		C71DBBD528D238A700E6CE07 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C71DBBD728D238A800E6CE07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C71DBBDA28D238A800E6CE07 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C71DBBE228D2F64000E6CE07 /* CarotDisplay-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CarotDisplay-ExtraBold.otf"; sourceTree = "<group>"; };
+		C71DBBE428D2F91800E6CE07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		C71DBBE528D300AA00E6CE07 /* SocialSignUpButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialSignUpButtonView.swift; sourceTree = "<group>"; };
+		C71DBBE728D324BA00E6CE07 /* TermsAndConditionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsAndConditionsView.swift; sourceTree = "<group>"; };
+		C71DBBE928D32C1700E6CE07 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		C71DBBEB28D34F9B00E6CE07 /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
+		C71DBBED28D3540300E6CE07 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		C71DBBEF28D35E9A00E6CE07 /* AppHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppHeaderView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C71DBBCD28D238A700E6CE07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C71DBBC728D238A700E6CE07 = {
+			isa = PBXGroup;
+			children = (
+				C71DBBD228D238A700E6CE07 /* MediumUI */,
+				C71DBBD128D238A700E6CE07 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C71DBBD128D238A700E6CE07 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C71DBBD028D238A700E6CE07 /* MediumUI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C71DBBD228D238A700E6CE07 /* MediumUI */ = {
+			isa = PBXGroup;
+			children = (
+				C7BE147E28D373CB003A38A8 /* Helpers */,
+				C7BE147D28D37383003A38A8 /* Resources */,
+				C7BE147C28D37366003A38A8 /* Views */,
+				C71DBBE428D2F91800E6CE07 /* Info.plist */,
+				C71DBBD328D238A700E6CE07 /* MediumUIApp.swift */,
+				C71DBBD728D238A800E6CE07 /* Assets.xcassets */,
+				C71DBBD928D238A800E6CE07 /* Preview Content */,
+			);
+			path = MediumUI;
+			sourceTree = "<group>";
+		};
+		C71DBBD928D238A800E6CE07 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C71DBBDA28D238A800E6CE07 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C71DBBE128D2F61400E6CE07 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				C71DBBE228D2F64000E6CE07 /* CarotDisplay-ExtraBold.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		C7BE147C28D37366003A38A8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C71DBBEB28D34F9B00E6CE07 /* SignupView.swift */,
+				C71DBBD528D238A700E6CE07 /* ContentView.swift */,
+				C71DBBED28D3540300E6CE07 /* LoginView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C7BE147D28D37383003A38A8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C71DBBE928D32C1700E6CE07 /* Constants.swift */,
+				C71DBBE128D2F61400E6CE07 /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C7BE147E28D373CB003A38A8 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				C71DBBEF28D35E9A00E6CE07 /* AppHeaderView.swift */,
+				C71DBBE728D324BA00E6CE07 /* TermsAndConditionsView.swift */,
+				C71DBBE528D300AA00E6CE07 /* SocialSignUpButtonView.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C71DBBCF28D238A700E6CE07 /* MediumUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C71DBBDE28D238A800E6CE07 /* Build configuration list for PBXNativeTarget "MediumUI" */;
+			buildPhases = (
+				C71DBBCC28D238A700E6CE07 /* Sources */,
+				C71DBBCD28D238A700E6CE07 /* Frameworks */,
+				C71DBBCE28D238A700E6CE07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MediumUI;
+			productName = MediumUI;
+			productReference = C71DBBD028D238A700E6CE07 /* MediumUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C71DBBC828D238A700E6CE07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					C71DBBCF28D238A700E6CE07 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = C71DBBCB28D238A700E6CE07 /* Build configuration list for PBXProject "MediumUI" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C71DBBC728D238A700E6CE07;
+			productRefGroup = C71DBBD128D238A700E6CE07 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C71DBBCF28D238A700E6CE07 /* MediumUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C71DBBCE28D238A700E6CE07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C71DBBDB28D238A800E6CE07 /* Preview Assets.xcassets in Resources */,
+				C71DBBD828D238A800E6CE07 /* Assets.xcassets in Resources */,
+				C71DBBE328D2F64000E6CE07 /* CarotDisplay-ExtraBold.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C71DBBCC28D238A700E6CE07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C71DBBEC28D34F9B00E6CE07 /* SignupView.swift in Sources */,
+				C71DBBEE28D3540300E6CE07 /* LoginView.swift in Sources */,
+				C71DBBEA28D32C1700E6CE07 /* Constants.swift in Sources */,
+				C71DBBE628D300AA00E6CE07 /* SocialSignUpButtonView.swift in Sources */,
+				C71DBBD628D238A700E6CE07 /* ContentView.swift in Sources */,
+				C71DBBF028D35E9A00E6CE07 /* AppHeaderView.swift in Sources */,
+				C71DBBE828D324BA00E6CE07 /* TermsAndConditionsView.swift in Sources */,
+				C71DBBD428D238A700E6CE07 /* MediumUIApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C71DBBDC28D238A800E6CE07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C71DBBDD28D238A800E6CE07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C71DBBDF28D238A800E6CE07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MediumUI/Preview Content\"";
+				DEVELOPMENT_TEAM = 9FXHBSH5SX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MediumUI/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Medium;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thevibegod.MediumUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C71DBBE028D238A800E6CE07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MediumUI/Preview Content\"";
+				DEVELOPMENT_TEAM = 9FXHBSH5SX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MediumUI/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Medium;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thevibegod.MediumUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C71DBBCB28D238A700E6CE07 /* Build configuration list for PBXProject "MediumUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C71DBBDC28D238A800E6CE07 /* Debug */,
+				C71DBBDD28D238A800E6CE07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C71DBBDE28D238A800E6CE07 /* Build configuration list for PBXNativeTarget "MediumUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C71DBBDF28D238A800E6CE07 /* Debug */,
+				C71DBBE028D238A800E6CE07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C71DBBC828D238A700E6CE07 /* Project object */;
+}
